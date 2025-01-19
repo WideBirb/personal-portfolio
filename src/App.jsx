@@ -13,7 +13,6 @@ const App = () => {
 	return (
 		<>
 			<Sidebar />
-			<Header />
 			<main>
 				<Hero />
 				<About />

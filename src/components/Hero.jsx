@@ -2,7 +2,7 @@ import { ButtonPrimary, ButtonOutline } from "./Button";
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-28 lg:pt-36">
+    <section id="home" className="pt-28 lg:pt-25">
       <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
         <div>
           <div className="flex items-center gap-3">
@@ -24,7 +24,7 @@ const Hero = () => {
             </div>
           </div>
           <h2 className=" headline-1 max-w-[15ch] sm:max-w[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Building Scalable Modern Website
+            I'm just a chill guy fr
           </h2>
 
           <div className="flex items-center gap-3">
@@ -38,8 +38,8 @@ const Hero = () => {
             ;
             <img
               src="/images/hero-banner.png"
-              width={656}
-              height={800}
+              width={650}
+              height={500}
               alt="alt"
               className="w-full"
             />

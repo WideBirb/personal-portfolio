@@ -1,0 +1,49 @@
+.aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: 1px solid rgba(56, 189, 248, 0.15);
+    background-color: rgba(56, 189, 248, 0.15);
+    padding: 1.5rem;
+    width: 75px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+    display: none; /* Hidden by default */
+}
+
+@media (min-width: 1360px) { /* For screens 1024px and up */
+    .aside {
+        display: flex; /* Show on larger screens */
+    }
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.nav_link {
+    font-size: 2.5rem;
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+.copyright {
+    color: rgb(186, 186, 197) /* #71717a */;
+    font-size: 0.875rem /* 14px */;
+    line-height: 1.25rem /* 20px */;
+    writing-mode: vertical-rl;
+}
+
+.meName {
+    --tw-text-opacity: 1;
+    font-size: 0.875rem /* 14px */;
+    line-height: 1.25rem /* 20px */;
+    color: rgb(228 228 231 / var(--tw-text-opacity, 1)) /* #e4e4e7 */;
+}

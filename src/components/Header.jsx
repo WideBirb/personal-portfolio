@@ -11,7 +11,7 @@ const Header = () => {
       <div className="max-w-screen2xl w-full mx-auto px-4 flex justify-between items-center md:px-6 md:grid md:grid-cols-[1fr,3fr,1fr]">
         <h1>
           <a href="/" className="logo">
-            <img src="/images/logo.svg" width={40} height={40} alt="Hello" />
+            <img src="/images/logo.svg" width={100} height={100} alt="Hello" />
           </a>
         </h1>
 

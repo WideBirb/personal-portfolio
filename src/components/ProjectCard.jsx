@@ -9,7 +9,7 @@ const ProjectCard = ({ imgSrc, title, tags, projectLink, classes }) => {
       }
     >
       <figure className="img-box aspect-square rounded-lg mb-4">
-        <img src={imgSrc} alt={title} loading="lazy" className="img-cover" />
+        <img src={import.meta.env.BASE_URL + imgSrc} alt={title} loading="lazy" className="img-cover" />
       </figure>
 
       <div className="flex items-center justify-between gap-4">

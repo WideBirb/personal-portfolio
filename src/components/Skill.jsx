@@ -54,7 +54,7 @@ const Skill = () => {
 
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
           {skillItem.map(({ imgSrc, label, desc }, key) => (
-            <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} />
+            <SkillCard key={key} imgSrc={import.meta.env.BASE_URL + imgSrc} label={label} desc={desc} />
           ))}
         </div>
       </div>
