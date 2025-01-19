@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-*base html {
+html {
 	scroll-behavior: smooth;
 }
 
 body {
 	@apply bg-zinc-900 text-zinc-50 h-[200vh];
+  scroll-behavior: smooth;
 }
 
 /* UTIL */
