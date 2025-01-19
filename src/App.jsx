@@ -6,21 +6,24 @@ import Skill from "./components/Skill";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Sidebar from "./components/sidebar/sidebar";
+import Resume from "./components/resume/Resume";
 
 const App = () => {
-  return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <About/>
-        <Skill/>
-        <Work/>
-        <Contact/>
-      </main>
-      <Footer/>
-    </>
-  );
+	return (
+		<>
+			<Sidebar />
+			<Header />
+			<main>
+				<Hero />
+				<About />
+				<Skill />
+				<Work />
+				<Contact />
+			</main>
+			<Footer />
+		</>
+	);
 };
 
 export default App;
