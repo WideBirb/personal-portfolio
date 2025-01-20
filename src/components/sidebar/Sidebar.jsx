@@ -5,12 +5,7 @@ const Sidebar = () => {
 	return (
 		<aside className="aside">
 			<a href="#home" className="nav_logo">
-				<img
-					src={import.meta.env.BASE_URL + "/images/logo.svg"}
-					width={125}
-					height={125}
-					alt="Logo"
-				/>
+				<span className="text-4xl">&#223;</span>
 			</a>
 
 			<nav className="nav">
@@ -29,13 +24,13 @@ const Sidebar = () => {
 						</li>
 
                         <li className="nav__item">
-							<a href="#resume" className="nav__link">
+							<a href="#education" className="nav__link">
                             <i className="icon-graduation"></i>
 							</a>
 						</li>
 
 						<li className="nav__item">
-							<a href="#work" className="nav__link">
+							<a href="#projects" className="nav__link">
                             <i className="icon-briefcase"></i>
 							</a>
 						</li>

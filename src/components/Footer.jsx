@@ -9,60 +9,47 @@ const sitemap = [
 		href: "#about",
 	},
 	{
-		label: "Work",
-		href: "#work",
+		label: "Education",
+		href: "#education",
 	},
 	{
-		label: "Reviews",
-		href: "#reviews",
-	},
-	{
-		label: "Contact me",
-		href: "#contact",
-	},
+		label: "Projects",
+		href: "#projects",
+	}
 ];
 
 const socials = [
 	{
 		label: "GitHub",
-		href: "https://www.github.com/codewithsadee-org",
+		href: "https://pbs.twimg.com/media/Ggi-edFaAAAe_sK?format=jpg&name=large",
 	},
 	{
 		label: "LinkedIn",
-		href: "https://www.linkedin.com/in/codewithsadee",
+		href: "https://pbs.twimg.com/media/Ggi-edFaAAAe_sK?format=jpg&name=large",
 	},
 	{
 		label: "Twitter X",
-		href: "https://x.com/codewithsadee_",
+		href: "https://pbs.twimg.com/media/Ggi-edFaAAAe_sK?format=jpg&name=large",
 	},
 	{
 		label: "Instagram",
-		href: "https://www.instagram.com/codewithsadee",
-	},
-	{
-		label: "CodePen",
-		href: "https://codepen.io/codewithsadee",
-	},
+		href: "https://pbs.twimg.com/media/Ggi-edFaAAAe_sK?format=jpg&name=large",
+	}
 ];
 
 const Footer = () => {
 	return (
 		<footer className="section">
 			<div className="container">
-				<div className="lg:grid lg:grid-cols-2 pb-5">
+				<div className="lg:grid lg:grid-cols-2">
 					<div className="mb-10">
-						<h2 className="headline-1 mb-8 lg:max-w-[12ch]">Let&apos;s work together today!</h2>
-						<ButtonPrimary
-							href="mailto:bridguiruela20@gmail.com"
-							label="Start project"
-							icon="chevron_right"
-						/>
+						<h2 className="headline-2 mb-8 lg:max-w-[12ch]">asd</h2>
 					</div>
 
 					<div className="grid grid-cols-2 gap-4 lg:pl-20">
 						<div>
 							<p className="mb-2">Sitemap</p>
-							<ul>
+							<ul className="mb-6">
 								{sitemap.map(({ label, href }, key) => (
 									<li key={key}>
 										<a href={href} className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200">

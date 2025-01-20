@@ -1,0 +1,41 @@
+.resume__container {
+    grid-template-columns: repeat(1,1fr);
+    column-gap: 1.875rem;
+}
+
+.timeline {
+    @apply relative p-4 rounded-2xl bg-zinc-800 ring-1 ring-inset ring-zinc-50/5 transition-colors
+}
+
+.timeline__item {
+    position: relative;
+    padding-left: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+
+.timeline__item:last-child {
+    padding-bottom: 0;
+}
+
+.timeline__item::before{
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: aqua;
+    position: absolute;
+    left: .25rem;
+    top: 0;
+}
+
+.timeline .icon-briefcase,
+.timeline .icon-graduation {
+    position:absolute;
+    left: -0.4375rem;
+    top: 0;
+    font-size: 2rem;
+    color: aqua;
+    background-color: rgb(39 39 42);
+    padding: 0.4375rem 0;
+
+}
+

@@ -2,7 +2,7 @@ import React from "react";
 
 const socialLinks = [
 	{
-		href: "https://www.github.com/codewithsadee-org",
+		href: "https://pbs.twimg.com/media/Ggi-edFaAAAe_sK?format=jpg&name=large",
 		icon: (
 			<svg
 				width="24"
@@ -20,7 +20,7 @@ const socialLinks = [
 		alt: "GitHub",
 	},
 	{
-		href: "https://www.linkedin.com/in/codewithsadee",
+		href: "https://pbs.twimg.com/media/Ggi-edFaAAAe_sK?format=jpg&name=large",
 		icon: (
 			<svg
 				width="24"
@@ -38,7 +38,7 @@ const socialLinks = [
 		alt: "LinkedIn",
 	},
 	{
-		href: "https://x.com/codewithsadee_",
+		href: "https://pbs.twimg.com/media/Ggi-edFaAAAe_sK?format=jpg&name=large",
 		icon: (
 			<svg
 				width="24"
@@ -56,7 +56,7 @@ const socialLinks = [
 		alt: "Twitter X",
 	},
 	{
-		href: "https://www.instagram.com/codewithsadee",
+		href: "https://pbs.twimg.com/media/Ggi-edFaAAAe_sK?format=jpg&name=large",
 		icon: (
 			<svg
 				width="25"
@@ -78,15 +78,14 @@ const socialLinks = [
 const Contact = () => {
 	return (
 		<section id="contact" className="section">
-			<div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
+			<div className="container lg:grid lg:items-stretch lg:grid-cols-[1fr,3fr]">
 				<div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
 					<h2 className="headline-2 lg:max-w-[12ch]">
-						Contact me for collaboration
+						Contact me!
 					</h2>
 
 					<p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch]">
-						Reach out today to discuss your project needs and start
-						collaborating on something amazing!
+						Reach out to me on my socials.
 					</p>
 
 					<div className="flex items-center gap-2 mt-auto">
