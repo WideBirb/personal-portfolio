@@ -3,7 +3,7 @@
     left: 0;
     top: 0;
     border-right: 1px solid rgba(56, 189, 248, 0.15);
-    background-color: rgba(56, 189, 248, 0.15);
+    background-color: rgba(56, 189, 248, 0.7);
     padding: 1.5rem;
     width: 75px;
     min-height: 100vh;
@@ -14,7 +14,7 @@
     display: none; /* Hidden by default */
 }
 
-@media (min-width: 1360px) { /* For screens 1024px and up */
+@media (min-width: 1160px) { /* For screens 1024px and up */
     .aside {
         display: flex; /* Show on larger screens */
     }

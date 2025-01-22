@@ -85,7 +85,12 @@ const Contact = () => {
 					</h2>
 
 					<p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch]">
-						Reach out to me on my socials.
+					Got a question or proposal, or just want
+					to say hello? Go ahead.
+					</p>
+
+					<p className="text-zinc-400 mt-20 max-w-[50ch] lg:max-w-[30ch]">
+					Reach out to me on my socials!
 					</p>
 
 					<div className="flex items-center gap-2 mt-auto">
@@ -114,7 +119,7 @@ const Contact = () => {
 								id="name"
 								autoComplete="name"
 								required
-								placeholder="big chungus"
+								placeholder="Enter Your Name"
 								className="text-field"
 							/>
 						</div>
@@ -129,7 +134,7 @@ const Contact = () => {
 								id="email"
 								autoComplete="email"
 								required
-								placeholder="bigchungs@example.com"
+								placeholder="Enter Your Email"
 								className="text-field"
 							/>
 						</div>
@@ -143,7 +148,7 @@ const Contact = () => {
 							name="message"
 							id="message"
 							className="text-field resize-y min-h-32 max-h-80"
-							placeholder="Hi!"
+							placeholder="Enter Your Message"
 							required
 						></textarea>
 					</div>

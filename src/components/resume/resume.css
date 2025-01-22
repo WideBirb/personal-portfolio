@@ -4,7 +4,7 @@
 }
 
 .timeline {
-    @apply relative p-4 rounded-2xl bg-zinc-800 ring-1 ring-inset ring-zinc-50/5 transition-colors
+    @apply relative p-8 rounded-2xl bg-zinc-800 ring-1 ring-inset ring-zinc-50/5 transition-colors
 }
 
 .timeline__item {
@@ -21,7 +21,8 @@
     content: '';
     width: 1px;
     height: 100%;
-    background-color: aqua;
+    --tw-text-opacity: 1;
+    background-color: rgb(56 189 248 / var(--tw-text-opacity, 1)) /* #38bdf8 */;
     position: absolute;
     left: .25rem;
     top: 0;
@@ -33,7 +34,8 @@
     left: -0.4375rem;
     top: 0;
     font-size: 2rem;
-    color: aqua;
+    --tw-text-opacity: 1;
+    color: rgb(56 189 248 / var(--tw-text-opacity, 1)) /* #38bdf8 */;
     background-color: rgb(39 39 42);
     padding: 0.4375rem 0;
 

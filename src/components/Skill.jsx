@@ -1,25 +1,47 @@
 import SkillCard from "./SkillCard";
 const skillItem = [
   {
-    imgSrc: "/images/css3.svg",
-    label: "CSS",
-    desc: "User Interface",
+    imgSrc: "/images/c--4.svg",
+    label: "C# .NET",
+    desc: "Back-End Language",
   },
+  {
+    imgSrc: "/images/github-icon-2.svg",
+    label: "GitHub",
+    desc: "Version Control",
+  },
+  {
+    imgSrc: "/images/lua-5.svg",
+    label: "Lua",
+    desc: "Game Development",
+  },
+  {
+    imgSrc: "/images/python-5.svg",
+    label: "Python",
+    desc: "Scripting",
+  },
+  {
+    imgSrc: "/images/bash-2.svg",
+    label: "Bash",
+    desc: "Command Line Interface",
+  },
+  {
+    imgSrc: "/images/tailwindcss.svg",
+    label: "Tailwind CSS",
+    desc: "CSS Framework",
+  },
+
   {
     imgSrc: "/images/javascript.svg",
     label: "JavaScript",
-    desc: "Interaction",
+    desc: "Front-End Language",
   },
   {
     imgSrc: "/images/react.svg",
     label: "React",
-    desc: "Framework",
+    desc: "Front-End Framework",
   },
-  {
-    imgSrc: "/images/tailwindcss.svg",
-    label: "TailwindCSS",
-    desc: "User Interface",
-  },
+
 ];
 
 const Skill = () => {

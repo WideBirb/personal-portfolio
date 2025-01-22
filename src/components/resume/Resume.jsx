@@ -8,32 +8,32 @@ const Data = [
 		id: 1,
 		category: "education",
 		icon: "icon-graduation",
-		year: "2019 - present",
-		title: "Academic Degree",
-		desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
+		year: "2022 - present",
+		title: "Bachelor of Science in Information Technology",
+		desc: "Southville International Schools and Colleges",
 	},
 	{
 		id: 2,
 		category: "education",
 		icon: "icon-graduation",
-		year: "2013 - 2017",
-		title: "Bachelor's Degree",
-		desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
+		year: "2019 - 2021",
+		title: "Senior High School",
+		desc: "Las Piñas City National Science High School",
 	},
 	{
 		id: 3,
 		category: "education",
 		icon: "icon-graduation",
-		year: "2009 - 2013",
-		title: "Honours Degree",
-		desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
+		year: "2015 - 2021",
+		title: "Junior High School",
+		desc: "Las Piñas City National Science High School",
 	}
 ];
 
 const Resume = () => {
 	return (
 		<section className="resume container section" id="education">
-			<h2 className="section__title headline-2 mb-10">Education</h2>
+			<h2 className="section__title headline-2 mb-4">Education</h2>
 			<div className="resume__container grid ">
 				<div className="timeline grid">
 					{Data.map((val, id) => {
