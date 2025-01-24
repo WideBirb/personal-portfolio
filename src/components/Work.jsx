@@ -25,9 +25,9 @@ const Work = () => {
   return (
     <section id="projects" className="section">
       <div className="container">
-        <h2 className="headline-2">Projects</h2>
-        <p className="text-zinc-400 mt-3 mb-6 max-w-[50ch]">
-          Personal and Academic projects
+        <h2 className="headline-2 mb-2">PROJECTS</h2>
+        <p className="text-zinc-400 mt-3 mb-3 max-w-[200ch]">
+        Personal projects that showcase my problem-solving skills. Explore my GitHub to see what I've been working on!
         </p>
         <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
           {works.map(({ imgSrc, title, tags, projectLink }, key) => (

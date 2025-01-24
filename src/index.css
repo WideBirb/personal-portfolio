@@ -18,6 +18,7 @@ body {
   scroll-behavior: smooth;
 }
 
+
 /* UTIL */
 .material-symbols-rounded {
 	@apply w-[1em] h-[1em] overflow-hidden;
@@ -37,7 +38,7 @@ body {
 }
 
 .section {
-	@apply pt-20 lg:pt-28;
+	@apply pt-20 lg:pt-40;
 }
 
 /* ---------------------------- *\

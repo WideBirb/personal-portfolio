@@ -18,26 +18,20 @@ const Sidebar = () => {
 						</li>
 
 						<li className="nav__item">
-							<a href="#about" className="nav__link">
-								<i className="icon-user-following"></i>
-							</a>
-						</li>
-
-                        <li className="nav__item">
-							<a href="#education" className="nav__link">
-                            <i className="icon-graduation"></i>
+							<a href="#projects" className="nav__link">
+                            <i className="icon-folder"></i>
 							</a>
 						</li>
 
 						<li className="nav__item">
-							<a href="#projects" className="nav__link">
-                            <i className="icon-briefcase"></i>
+							<a href="#technologies" className="nav__link">
+                            <i className="icon-layers"></i>
 							</a>
 						</li>
 
 						<li className="nav__item">
 							<a href="#contact" className="nav__link">
-								<i className="icon-bubble"></i>
+								<i className="icon-envelope-letter"></i>
 							</a>
 						</li>
 					</ul>

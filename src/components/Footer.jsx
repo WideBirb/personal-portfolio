@@ -44,11 +44,11 @@ const socials = [
 
 const Footer = () => {
 	return (
-		<footer className="section">
+		<footer className="mt">
 			<div className="container">
-				<div className="lg:grid lg:grid-cols-[1fr_3fr] flex flex-wrap justify-center">
-					<div className="mb-2">
-						<p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch]">
+				<div className="lg:grid flex flex-wrap justify-center">
+					<div className="mt-0">
+						<p className="text-zinc-400 my-5 max-w-[50ch] lg:max-w-[200ch]">
 							Built with&nbsp;
 							<a
 								href="https://react.dev"
@@ -82,7 +82,9 @@ const Footer = () => {
 						</p>
 					</div>
 
+				
 					<div className="pl-2">
+							{/* 
 						<div>
 							<ul className="mb-6 flex flex-wrap justify-center">
 								{sitemap.map(({ label, href }, key) => (
@@ -97,7 +99,7 @@ const Footer = () => {
 								))}
 							</ul>
 						</div>
-
+*/}
 						{/*						<div>
 							<p className="mb-2">Socials</p>
 							<ul>

@@ -46,9 +46,9 @@ const skillItem = [
 
 const Skill = () => {
   return (
-    <section className="section">
+    <section className="section py-20" id="technologies">
       <div className="container">
-        <h2 className="headline-2">Technologies</h2>
+        <h2 className="headline-2">TECHNOLOGIES</h2>
         <p className="text-zinc-400 mt-3 mb-4 max-w-[50ch]">
           Tools and technologies I use to create my projects
         </p>
