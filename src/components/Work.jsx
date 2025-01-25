@@ -2,22 +2,22 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "/images/hero-banner.jpg",
+    imgSrc: "/images/translator-app.png",
     title: "Translator Desktop App",
     tags: ["API", "MVC", "WPF"],
-    projectLink: "https://github.com/WideBirb",
+    projectLink: "https://github.com/CInkvader/Finals_Translator",
   },
   {
-    imgSrc: "/images/hero-banner.jpg",
+    imgSrc: "/images/pet-shop.png",
     title: "Pet Shop",
     tags: ["WPF", "MVC"],
-    projectLink: "https://github.com/WideBirb",
+    projectLink: "https://github.com/WideBirb/IntegrativeMidterm",
   },
   {
-    imgSrc: "/images/hero-banner.jpg",
+    imgSrc: "/images/movie-app.png",
     title: "Movie App",
     tags: ["API", "React"],
-    projectLink: "https://github.com/WideBirb",
+    projectLink: "https://github.com/WideBirb/react_prac",
   }
 ];
 
