@@ -12,12 +12,6 @@ const Sidebar = () => {
 				<div className="nav__menu">
 					<ul className="nav__list">
 						<li className="nav__item">
-							<a href="#home" className="nav__link">
-								<i className="icon-home"></i>
-							</a>
-						</li>
-
-						<li className="nav__item">
 							<a href="#projects" className="nav__link">
                             <i className="icon-folder"></i>
 							</a>

@@ -2,7 +2,7 @@ import React from "react";
 
 const socialLinks = [
 	{
-		href: "https://pbs.twimg.com/media/Ggi-edFaAAAe_sK?format=jpg&name=large",
+		href: "https://github.com/WideBirb",
 		icon: (
 			<svg
 				width="24"
@@ -20,7 +20,7 @@ const socialLinks = [
 		alt: "GitHub",
 	},
 	{
-		href: "https://pbs.twimg.com/media/Ggi-edFaAAAe_sK?format=jpg&name=large",
+		href: "https://ph.linkedin.com/in/brid-guiruela-58a323128",
 		icon: (
 			<svg
 				width="24"
